@@ -1,0 +1,172 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为网页资源信息",
+        " *   success字段为下载保存成功的资源;failures字段则为下载保存失败的资源URL",
+        " *   success字段为标准树结构，每一层资源父子关系、URL和保存路径清晰明了",
+        " *   本文件仅为记录检测到的网页资源以便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "success": [
+        {
+            "url": "https://vip.qq.com/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "https://imgcache.gtimg.cn/ACT/svip_act/act_img/toeshe/201601/1452587517_bg_index.jpg",
+                    "path": "images/1452587517_bg_index.jpeg"
+                },
+                {
+                    "url": "https://i.gtimg.cn/vipstyle/vipportal/v4/img/common/logo.png",
+                    "path": "images/logo.png"
+                },
+                {
+                    "url": "https://i.gtimg.cn/vipstyle/vipportal/v4/img/common/logo_b.png",
+                    "path": "images/logo_b.png"
+                },
+                {
+                    "url": "https://imgcache.gtimg.cn/vipstyle/vipportal/v3/img/common/qq_qrcode_preview.jpg",
+                    "path": "images/qq_qrcode_preview.jpeg"
+                },
+                {
+                    "url": "https://imgcache.qq.com/ACT/svip_act/act_img/kiddyhuang/201402/1392709767_big.png",
+                    "path": "images/1392709767_big.png"
+                },
+                {
+                    "url": "https://imgcache.gtimg.cn/channel/components/jsreport/jsreport-1.2.js?_bid=2066&max_age=25930000&rpt_bid=201",
+                    "path": "js/jsreport-1.2.js"
+                },
+                {
+                    "url": "https://imgcache.gtimg.cn/club/platform/lib/seajs/sea-with-plugin-p-v2-2.2.1.js?max_age=2592000&v=4",
+                    "path": "js/sea-with-plugin-p-v2-2.2.1.js"
+                },
+                {
+                    "url": "https://qzonestyle.gtimg.cn/vipportal/v4/css/global.css",
+                    "path": "css/global.css",
+                    "children": [
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipstyle/vipportal/v4/img/common/sprites_btn.png",
+                            "path": "images/sprites_btn_1.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipstyle/vipportal/v4/img/common/sprites_top.png",
+                            "path": "images/sprites_top.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipstyle/vipportal/v4/img/common/sprites_top@2x.png",
+                            "path": "images/sprites_top@2x.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipportal/v4/img/common/sprites_btn.png",
+                            "path": "images/sprites_btn.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipportal/v4/img/index/sprites_btn.png",
+                            "path": "images/sprites_btn_2.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipportal/v4/img/common/navbar_bg3.png",
+                            "path": "images/navbar_bg3.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipportal/v4/img/common/head-cover.png",
+                            "path": "images/head-cover.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipportal/v4/img/common/navbar_bg.png",
+                            "path": "images/navbar_bg.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipportal/v4/img/common/navbar_bg2.png",
+                            "path": "images/navbar_bg2.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipstyle/vipportal/v4/img/common/tips_bg.png",
+                            "path": "images/tips_bg.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipstyle/vipportal/v4/img/common/btn_sprites.png",
+                            "path": "images/btn_sprites.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipportal/v4/img/common/footer_popup.png",
+                            "path": "images/footer_popup.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipportal/v4/img/common/sprites_footer.png",
+                            "path": "images/sprites_footer.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipportal/v4/img/common/sprites_footer@2x.png",
+                            "path": "images/sprites_footer@2x.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipstyle/vipportal/v4/img/my/sprites_index.png",
+                            "path": "images/sprites_index.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipstyle/vipportal/v4/img/common/sprites_icon.png",
+                            "path": "images/sprites_icon.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipstyle/vipportal/v4/img/common/sprites_icon@2x.png",
+                            "path": "images/sprites_icon@2x.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipstyle/vipportal/v4/img/component/sprites_dialog.png",
+                            "path": "images/sprites_dialog.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipportal/v4/img/common/sprites_dialog_grow.png",
+                            "path": "images/sprites_dialog_grow.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipstyle/vipportal/v4/img/common/sprites_dialog_grow.png",
+                            "path": "images/sprites_dialog_grow_1.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipstyle/vipportal/v4/img/my/sprites_growth.png",
+                            "path": "images/sprites_growth.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipportal/v4/img/common/sprites_icon_privilege.png",
+                            "path": "images/sprites_icon_privilege.png"
+                        },
+                        {
+                            "url": "https://qzonestyle.gtimg.cn/vipstyle/vipportal/v4/img/common/sprites_icon_privilege.png",
+                            "path": "images/sprites_icon_privilege_1.png"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://i.gtimg.cn/vipstyle/vipportal/v4/css/index/index_v2.css?max_age=864000",
+                    "path": "css/index_v2.css",
+                    "children": [
+                        {
+                            "url": "https://i.gtimg.cn/vipstyle/vipportal/v4/fonts/index/btn/fzlth.eot",
+                            "path": "fonts/fzlth.eot"
+                        },
+                        {
+                            "url": "https://i.gtimg.cn/vipstyle/vipportal/v4/fonts/index/btn/fzlth.woff",
+                            "path": "fonts/fzlth.woff"
+                        },
+                        {
+                            "url": "https://i.gtimg.cn/vipstyle/vipportal/v4/fonts/index/btn/fzlth.svg#fzlth",
+                            "path": "images/fzlth.svg"
+                        },
+                        {
+                            "url": "https://i.gtimg.cn/vipstyle/vipportal/v4/img/index_v2/bg_index.jpg",
+                            "path": "images/bg_index.jpg"
+                        },
+                        {
+                            "url": "https://i.gtimg.cn/vipstyle/vipportal/v4/img/my/sprites_index.png",
+                            "path": "images/sprites_index_1.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "failures": []
+}

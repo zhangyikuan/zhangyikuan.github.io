@@ -1,0 +1,60 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为请求参数，包括不限于网址、请求头、响应头、COOKIE、Referer、UserAgent",
+        " *   本文件仅为记录详细请求参数便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "directory": "vip-qq-com-jhdfojuc",
+    "options": {
+        "url": "https://vip.qq.com/",
+        "index": "index.html",
+        "domain": "vip.qq.com",
+        "ipaddress": "203.205.235.121",
+        "whitelist": true,
+        "filenameGenerator": "byType",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "date": "Tue, 24 Nov 2020 01:45:54 GMT",
+                "content-type": "text/html;charset=utf-8",
+                "content-length": "10284",
+                "connection": "close",
+                "x-powered-by": "TSW/Node.js",
+                "server": "Apache",
+                "cache-control": "max-age=0",
+                "mod-map": "nodeproxy_index",
+                "expires": "Tue, 24 Nov 2020 01:45:54 GMT",
+                "vary": "Accept-Encoding,User-Agent",
+                "content-encoding": "gzip",
+                "content-security-policy-report-only": "default-src 'self' 'unsafe-inline' 'unsafe-eval' data:  jsbridge: weixin: mqq: mqqapi: https://jsbridge http://jsbridge  *.qq.com *.gtimg.cn *.tenpay.com *.baidu.com *.gtimg.com *.idqqimg.com  *.360buyimg.com *.qlogo.cn   *.qpic.cn *.jd.com *.360buyimg.com *.wgimg.com *.soso.com *.myapp.com *.sogoucdn.com *.paipaiimg.com;report-uri //r.vip.qq.com/report/csp",
+                "content-security-policy": "upgrade-insecure-requests"
+            }
+        }
+    },
+    "user": {
+        "isWhite": false
+    },
+    "formatter": [
+        "css",
+        "html",
+        "javascript",
+        "saveOriginal"
+    ],
+    "time": {
+        "start": 1606182353313,
+        "end": 1606182359887,
+        "spend": "6.574s"
+    }
+}
