@@ -1,0 +1,38 @@
+#checkbox-1{
+    display: none;
+}
+.lab_box{
+    margin: 0 20px 0;
+    float: right;
+    width: 45px;
+    height: 45px;
+}
+.lab_box div{
+    z-index: 999;
+    width: 20px;
+    height: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+}
+.hamburger-container span{
+    position: relative;
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    transition: transform .2s ease-in-out, top .2s ease-in-out .2s;
+    top: 0;
+}
+.hamburger-container span:nth-child(2){
+    margin-top: 7px;
+}
+#checkbox-1:checked + .lab_box .hamburger-container span:nth-child(1){
+    transform: rotate(45deg);
+    top: 4px;
+    transition: top .2s ease-in-out, transform .2s ease-in-out .2s;
+}
+#checkbox-1:checked + .lab_box .hamburger-container span:nth-child(2){
+    transform: rotate(-45deg);
+    top: -4px;
+    transition: top .2s ease-in-out, transform .2s ease-in-out .2s;
+}
